@@ -6,3 +6,33 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared Styles */
+
+.display-flex{
+  display: flex;
+}
+.bg-primary{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.text-accent{
+  color: #424242;
+}
+
+/* header styles */
+
+/* nav-bar */
+.navbar{
+  justify-content: space-between;
+}
+.nav-item{
+  list-style: none;
+}
+.nav-link{
+  text-decoration: none;
+  margin-right: 30px;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
