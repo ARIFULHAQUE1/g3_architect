@@ -117,11 +117,30 @@ padding-left: 12px;
   margin-bottom: 20px;
 
 }
-  /* fact card styles */
-  .fact-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
+
+/* badge button styles */
+#badge-button{
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: -100px;
+  margin-top: -100px;
+  padding: 40px 25px;
+}
+#badge-title{
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+#badge-subtitle{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+/* fact card styles */
+.fact-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
   .fact-card{
     border: 1px solid #FF900E;
     width: 240px;
