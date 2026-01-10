@@ -122,9 +122,11 @@ main>section {
 }
 
 .features-section {
-  gap: 140px;
+  gap: 146px;
 }
-
+.features-container{
+  width: 50%;
+}
 .feature-image-container img {
   width: 100%;
 }
@@ -133,6 +135,10 @@ main>section {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 0;
+  margin-bottom: 0;
+}
+.feature-card p{
+  font-size: 1rem;
   margin-bottom: 0;
 }
 
